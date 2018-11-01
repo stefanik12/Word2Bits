@@ -10,3 +10,8 @@ Notes 1.11.18:
 - pomocou FCA vyhodnotit, ako velmi je rozdelenie do supremov (root hypernyma) zhodne s inferenciou FCA
 - preskumat moznost implementacie inkrementalneho kroku
 -- s aktualnym W2B inkrementalne pridavat dlzku a pozorovat pocet skupin synonym, ktore sa tym rozbiju - kvantifikacia vysledku
+
+0. zreprodukovat metriky Sym353 v paperi - podla toho budeme potom porovnavat dalsie vysledky
+1. evaluacia ubytku na synsete s najvacsim poctom synonymom, ktore na malo dimanziach (4, 8) vyskakuju zo svazu
+-- ocakavame, ze najpodobnejsie slova zostavaju najdlhsie spolu
+2. zvazit reimplementaciu napr. do kerasu
