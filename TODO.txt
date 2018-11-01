@@ -2,3 +2,11 @@
 2. find patterns in data - can some parts of the vectors be interpreted semantically?
 2.1: find data with semantic relations - e.g. objects of the same category
 2.2: inside the same category, find the correlations on specific coordinates, supposedly distinct from other categories.
+
+
+Notes 1.11.18:
+- rovnake synonyma chceme v jednom node hammingovskeho svazu
+- vstupny vektor: morfologicke kategorie Majky, inkrementalne doucovat dalsie
+- pomocou FCA vyhodnotit, ako velmi je rozdelenie do supremov (root hypernyma) zhodne s inferenciou FCA
+- preskumat moznost implementacie inkrementalneho kroku
+-- s aktualnym W2B inkrementalne pridavat dlzku a pozorovat pocet skupin synonym, ktore sa tym rozbiju - kvantifikacia vysledku
