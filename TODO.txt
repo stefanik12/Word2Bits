@@ -17,3 +17,8 @@ Notes 1.11.18:
 2. zvazit reimplementaciu napr. do kerasu
 
 https://drive.google.com/drive/folders/17vYmaIGultlZQ0wc5sFmbvgbO_s62G7s
+
+Notes 8.11.18:
+- Nazbierat a spocitat binarnu reprezentaciu morfologie slov
+- Vypocitat korelaciu s existujucimi featurami, natrenovanymi nezavisle
+- Spocitat accuracy pre roznu dimenzionalitu
