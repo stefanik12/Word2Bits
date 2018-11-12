@@ -15,3 +15,10 @@ Notes 1.11.18:
 1. evaluacia ubytku na synsete s najvacsim poctom synonymom, ktore na malo dimanziach (4, 8) vyskakuju zo svazu
 -- ocakavame, ze najpodobnejsie slova zostavaju najdlhsie spolu
 2. zvazit reimplementaciu napr. do kerasu
+
+https://drive.google.com/drive/folders/17vYmaIGultlZQ0wc5sFmbvgbO_s62G7s
+
+Notes 8.11.18:
+- Nazbierat a spocitat binarnu reprezentaciu morfologie slov
+- Vypocitat korelaciu s existujucimi featurami, natrenovanymi nezavisle
+- Spocitat accuracy pre roznu dimenzionalitu
