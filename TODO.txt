@@ -22,3 +22,7 @@ Notes 8.11.18:
 - Nazbierat a spocitat binarnu reprezentaciu morfologie slov
 - Vypocitat korelaciu s existujucimi featurami, natrenovanymi nezavisle
 - Spocitat accuracy pre roznu dimenzionalitu
+
+Notes 15.11.18:
+- Trenovat w2b na desambiguovanom korpuse (en): vertikaly slov: aclwiki: https://aclweb.org/aclwiki/Word_sense_disambiguation_resources - prvych 20 articlov
+- nasharovat vektory z Gdrivu
