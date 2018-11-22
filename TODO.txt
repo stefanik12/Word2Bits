@@ -29,3 +29,9 @@ Notes 15.11.18:
 --------> na desambiguovanom korpuse s PoS tagmi:
 - sa nevytraca korelacia pre dane tagy
 -- mozno vektory so zvysujucou dimensionalitou zachytavaju viac vyznamov ambiguous termov
+
+
+Notes 22.11:
+- Napisat autorovi, preco nedostavame konzistentne vysledky
+- Retraining na tagged korpuse
+- 
