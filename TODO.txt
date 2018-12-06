@@ -35,3 +35,6 @@ Notes 22.11:
 - Napisat autorovi, preco nedostavame konzistentne vysledky
 - Retraining na tagged korpuse
 - 
+
+Notes 6.12:
+- Skusit korelacie z modelu natrenovaneho na malom PENN-Treebank
