@@ -50,6 +50,7 @@ int *vocab_hash;
 long long vocab_max_size = 1000, vocab_size = 0, layer1_size = 100;
 long long train_words = 0, word_count_actual = 0, iter = 5, file_size = 0, classes = 0;
 bool save_every_epoch = 0;
+bool quantized_loss = 1;
 real alpha = 0.05, starting_alpha, sample = 1e-3;
 real reg = 0;
 double *thread_losses;
@@ -367,7 +368,7 @@ void *TrainModelThread(void *id) {
   long long l2, target, label, local_iter = 1;
   unsigned long long next_random = (long long)id;
   char eof = 0;
-  int local_bitlevel = bitlevel;
+  int local_bitlevel = quantized_loss ? bitlevel : 0;
   real f, g;
   clock_t now;
   real *context_avg = (real *)calloc(layer1_size, sizeof(real));
@@ -600,6 +601,7 @@ int main(int argc, char **argv) {
   if ((i = ArgPos((char *)"-train", argc, argv)) > 0) strcpy(train_file, argv[i + 1]);
   if ((i = ArgPos((char *)"-debug", argc, argv)) > 0) debug_mode = atoi(argv[i + 1]);
   if ((i = ArgPos((char *)"-binary", argc, argv)) > 0) binary = atoi(argv[i + 1]);
+  if ((i = ArgPos((char *)"-quantized_loss", argc, argv)) > 0) quantized_loss = atoi(argv[i + 1]);
   if ((i = ArgPos((char *)"-alpha", argc, argv)) > 0) alpha = atof(argv[i + 1]);
   if ((i = ArgPos((char *)"-output", argc, argv)) > 0) strcpy(output_file, argv[i + 1]);
   if ((i = ArgPos((char *)"-window", argc, argv)) > 0) window = atoi(argv[i + 1]);
