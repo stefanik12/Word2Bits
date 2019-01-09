@@ -542,6 +542,7 @@ void TrainModel() {
     if (classes == 0 && save_every_epoch) {
       fo = fopen(output_file_cur_iter, "wb");
       // Save the word vectors
+      fprintf(fo, "%s\n", binary ? "binary" : "text");
       fprintf(fo, "%lld %lld\n", vocab_size, layer1_size);
       for (a = 0; a < vocab_size; a++) {
 	fprintf(fo, "%s ", vocab[a].word);
@@ -561,6 +562,7 @@ void TrainModel() {
   fo = fopen(output_file, "wb");
   if (classes == 0) {
     // Save the word vectors
+    fprintf(fo, "%s\n", binary ? "binary" : "text");
     fprintf(fo, "%lld %lld\n", vocab_size, layer1_size);
     for (a = 0; a < vocab_size; a++) {
       fprintf(fo, "%s ", vocab[a].word);
