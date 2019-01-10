@@ -38,3 +38,7 @@ Notes 22.11:
 
 Notes 6.12:
 - Skusit korelacie z modelu natrenovaneho na malom PENN-Treebank
+
+Notes 10.1:
+- Dimensionality reduction a zmeranie accuracy + correlations: pom PCA + variability
+- 
