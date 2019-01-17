@@ -44,4 +44,6 @@ Notes 10.1:
 
 Notes 17.1:
 - Sablona v Overleafe: nadpisy s jednovetnym zhrnutim, o com kapitola cca bude.
-
+- Generovat accuracy pre word2vec a porovnat pred a po PCA
+- Zistit, co robi PCA a opravit chybu
+- Dopocitat accuracies do 600
