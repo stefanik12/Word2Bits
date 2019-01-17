@@ -41,4 +41,7 @@ Notes 6.12:
 
 Notes 10.1:
 - Dimensionality reduction a zmeranie accuracy + correlations: pom PCA + variability
-- 
+
+Notes 17.1:
+- Sablona v Overleafe: nadpisy s jednovetnym zhrnutim, o com kapitola cca bude.
+
