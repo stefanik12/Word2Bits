@@ -1,3 +1,7 @@
+Long term tasks:
+-> Extrahovat generovanie reduced dimensionality do noveho notebooku z PoS correlations
+
+Notes 25.11.18:
 1. evaluate word2vec vectors on the same evaluation platform as quantized vectors
 2. find patterns in data - can some parts of the vectors be interpreted semantically?
 2.1: find data with semantic relations - e.g. objects of the same category
