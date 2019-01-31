@@ -51,3 +51,6 @@ Notes 17.1:
 - Generovat accuracy pre word2vec a porovnat pred a po PCA
 - Zistit, co robi PCA a opravit chybu
 - Dopocitat accuracies do 600
+
+Notes 31.1:
+- Experiment: odpovedat na analogy task podla top-n featur tf-idf (feature f/inverse feature frequency)
