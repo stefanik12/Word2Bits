@@ -54,3 +54,12 @@ Notes 17.1:
 
 Notes 31.1:
 - Experiment: odpovedat na analogy task podla top-n featur tf-idf (feature f/inverse feature frequency)
+
+Notes 1.3:
+- Recommender evaluacia na zaklade analyzy zhody predoslej a buducej aktivity uzivatela
+-- Predosla aktivita je set dokumentov reprezentovanych vo W2B
+-- Buduca aktivita je to iste
+-- zaujima nas zhoda tychto dokumentov podla W2B vektorov, relativne k baselinu (napr priemer vsetkych dokumentov - potrebne confidence intervaly)
+
+- FCA: bud budeme analyzovat, ci je specializacia platna aj podla bitov a ako velmi (v porovnani s baselinom - nahodne slovo)
+       alebo skusime modifikovat loss funkciu tak, aby tuto vlastnost vynucovala
