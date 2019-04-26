@@ -63,3 +63,8 @@ Notes 1.3:
 
 - FCA: bud budeme analyzovat, ci je specializacia platna aj podla bitov a ako velmi (v porovnani s baselinom - nahodne slovo)
        alebo skusime modifikovat loss funkciu tak, aby tuto vlastnost vynucovala
+       
+Notes 26.4:
+- Inferencia do Analyz: inferencia je pravdepodobnost, ze z dvojice (f1, f2): plati, ze: max( bity f1=1 => bity f2=1, pre vsetky interpretacie)
+
+- Analyses do Experiments
