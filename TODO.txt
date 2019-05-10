@@ -69,3 +69,7 @@ Notes 26.4:
 -- ohnodnoteny plny graf, a minimalna kostra je strom pokryvajuci vsetky featury s maximalnym ohodnotenim
 
 - Analyses do Experiments
+
+Notes 9.5:
+- Funk SVD: iterativna dekompozicia, ozatvorkovanie featur
+- Nieco o moznostiach bitovej inferencie do Related Work
