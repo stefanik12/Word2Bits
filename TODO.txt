@@ -73,3 +73,9 @@ Notes 26.4:
 Notes 9.5:
 - Funk SVD: iterativna dekompozicia, ozatvorkovanie featur
 - Nieco o moznostiach bitovej inferencie do Related Work
+
+Final TODO list:
+- update Kapitoly 2 o moznosti logickej inferencie s binarnymi bitmi
+- distribucie feature values po modifikacii do appendixu
+- transformacia feature spacu podla vysledkov votingu
+- obe verzie stromov do appendixu
